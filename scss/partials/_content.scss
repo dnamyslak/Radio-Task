@@ -1,0 +1,188 @@
+/* HEADER */
+
+.radio {
+    margin: 20px auto;
+    overflow: hidden;
+    width: 640px;
+    border-radius: 48px;
+    box-shadow: 1px 70px 60px -30px rgba(0, 0, 0, 0.3);
+    margin-bottom: 100px
+}
+
+.radio>* {
+    padding: 0 40px
+}
+
+.radio-header {
+    position: relative;
+    background: #edae61;
+    color: #fff;
+    font-size: 44px;
+    font-weight: bold;
+    max-height: 160px;
+    line-height: 160px;
+}
+
+.stations {
+    display: block;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+
+.arrow {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/arrow_left.png');
+    background-repeat: no-repeat;
+    
+}
+
+.switch {
+    position: absolute;
+    top: 60px;
+    left: 550px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/switch.png');
+    background-repeat: no-repeat;
+    
+}
+
+
+/* RADIO CHANNELS */
+
+
+.radio-station {
+    background: #2f2f3a;
+    color: #a2abbd;
+    font-size: 44px;
+    height: 690px;
+    padding-top: 20px;
+    overflow-y: auto
+}
+
+.radio-station::-webkit-scrollbar {
+    width: 0;
+    background: transparent
+}
+
+.radio-station li:not(:last-child) {
+    border-bottom: 1px solid #43434d
+}
+
+
+.mhz {
+    float: right;
+    font-weight: bold;
+}
+
+.clearfix {
+    clear: both
+}
+
+
+
+
+/*  ROWS */
+
+.row {
+    padding-top: 10px;
+    height: 120px;
+    line-height: 100px;
+    overflow: none
+}
+
+.row>* {
+    display: inline-block
+}
+
+
+
+/* PLAY SECTION - PSEUDO ELEMENT */
+
+
+.hide {
+    display: none
+}
+
+
+.play {
+    display: block;
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    
+}
+
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 130px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+}
+
+
+.minus {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/minus.png');
+    background-repeat: no-repeat;
+}
+
+
+.plus {
+    position: absolute;
+    top: 120px;
+    left: 500px;  
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/plus.png');
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+    background: #22222b;
+    border-top: 2px solid #4d505c;
+    color: #9da6b9;
+    font-size: 44px;
+    height: 160px;
+}
+
+
+.play-title {
+    display: flex;
+    justify-content: space-around;
+    color: #edae61;
+    font-size: 20px;
+    font-weight: bold; 
+    padding-top: 40px;
+
+}
+
+.play-station {
+    display: flex;
+    justify-content: space-around;
+}
+
+
