@@ -1,23 +1,39 @@
 @media 
 (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){ 
     .arrow {
-        background-image: url('../../img/arrow_left2x.png');    
+        background-image: url('../img/arrow_left2x.png');    
+    }
+    
+    .arrow:hover {
+        background-image: url('../img/arrow_left2x_hover.png');    
     }
     
     .switch {
-        background-image: url('../../img/switch2x.png');    
+        background-image: url('../img/switch2x.png');    
+    }
+    
+    .switch:hover {
+        background-image: url('../img/switch2x_hover.png');    
     }
     
     .logo {
-        background-image: url('../../img/logo2x.png');    
+        background-image: url('../img/logo2x.png');    
     }
     
     .minus {
-        background-image: url('../../img/minus2x.png');    
+        background-image: url('../img/minus2x.png');    
+    }
+    
+     .minus:hover {
+        background-image: url('../img/minus2x_hover.png');    
     }
     
     .plus {
-        background-image: url('../../img/plus2x.png');    
+        background-image: url('../img/plus2x.png');    
+    }
+    
+    .plus:hover {
+        background-image: url('../img/plus2x_hover.png');    
     }
     
 }
