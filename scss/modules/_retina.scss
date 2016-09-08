@@ -1,18 +1,26 @@
 @media 
 (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){ 
     .arrow {
+        width: 102px;
+        height: 102px;
         background-image: url('../img/arrow_left2x.png');    
     }
     
     .arrow:hover {
+        width: 102px;
+        height: 102px;
         background-image: url('../img/arrow_left2x_hover.png');    
     }
     
     .switch {
+        width: 102px;
+        height: 102px;
         background-image: url('../img/switch2x.png');    
     }
     
     .switch:hover {
+        width: 102px;
+        height: 102px;
         background-image: url('../img/switch2x_hover.png');    
     }
     
@@ -21,18 +29,26 @@
     }
     
     .minus {
+        width: 128px;
+        height: 128px;
         background-image: url('../img/minus2x.png');    
     }
     
      .minus:hover {
+        width: 128px;
+        height: 128px;
         background-image: url('../img/minus2x_hover.png');    
     }
     
     .plus {
+        width: 128px;
+        height: 128px;
         background-image: url('../img/plus2x.png');    
     }
     
     .plus:hover {
+        width: 128px;
+        height: 128px;
         background-image: url('../img/plus2x_hover.png');    
     }
     
