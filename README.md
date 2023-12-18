@@ -5,7 +5,7 @@ Netguru Radio Task
 ## Live demo
 
 
-http://dnamyslak.pl/_projects/netguru_task/ 
+https://www.dnamyslak.eu/_projects/netguru_task/ 
 
 
 ## ToDo:
